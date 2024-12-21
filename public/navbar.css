@@ -1,0 +1,69 @@
+/* เพิ่มระยะห่างด้านซ้ายของ custom-brand */
+.custom-brand {
+    margin-left: 20px; /* เพิ่มระยะห่างทางซ้ายของโลโก้ */
+    font-size: 2rem; /* ขนาดตัวอักษร */
+    font-weight: bold; /* ทำให้ตัวอักษรหนา */
+    color: #ff3b3b; /* สีที่เด่น */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* เงาให้ดูนูน */
+    font-family: 'Arial', sans-serif; /* เปลี่ยนฟอนต์ */
+    text-transform: uppercase; /* ตัวพิมพ์ใหญ่ */
+}
+
+.custom-brand:hover {
+    color: #ff6f61; /* สีเมื่อโฮเวอร์ */
+}
+
+/* ปรับการจัดฟอร์มค้นหาให้ตรงกลาง */
+.custom-search-form {
+    width: 60%; /* ปรับขนาดฟอร์ม */
+    margin-right: auto; /* ชิดขวา */
+    margin-left: auto;  /* ชิดซ้าย */
+}
+
+/* เพิ่มการจัดให้ไอคอนตะกร้าชิดขวา */
+.navbar .collapse .d-flex {
+    justify-content: flex-end; /* ชิดขวา */
+}
+
+/* ปรับขนาดไอคอนตะกร้าให้ใหญ่ขึ้น */
+.cart-icon img {
+    width: 40px;  /* ขนาดไอคอน */
+    height: 40px;
+}
+
+/* เพิ่มระยะห่างให้ไอคอนตะกร้าห่างจากฟอร์มค้นหา */
+.cart-icon {
+    margin-left: 20px;  /* เพิ่มระยะห่างด้านซ้ายของไอคอน */
+}
+
+.nav-link {
+    font-size: 0.9rem;  /* ปรับขนาดตัวอักษรให้เล็กลง */
+    font-weight: bold;
+    color: black;
+    transition: color 0.3s;
+}
+
+.nav-link:hover {
+    color: #ffcc00; /* เปลี่ยนสีเมื่อ hover */
+}
+
+.nav-container {
+    display: flex;
+    justify-content: center;  /* จัดให้เมนูอยู่กลาง */
+    align-items: center;      /* จัดให้อยู่แนวตั้งกลาง */
+}
+
+.nav-link {
+    font-size: 1rem;  /* ขนาดตัวอักษร */
+    font-weight: bold;
+    color: black;
+    transition: color 0.3s;
+}
+
+.nav-link:hover {
+    color: #ffcc00;  /* เปลี่ยนสีเมื่อ hover */
+}
+
+.nav-item {
+    margin-right: 15px;  /* ระยะห่างระหว่างเมนู */
+}

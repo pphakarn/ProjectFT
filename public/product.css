@@ -1,0 +1,93 @@
+.custom-heading {
+    font-family: 'Kanit', sans-serif; /* ใช้ฟอนต์ไทยที่ทันสมัย */
+    font-size: 2rem; /* ขนาดตัวอักษรใหญ่ */
+    font-weight: bold; /* เน้นให้หนาขึ้น */
+    color: #ff6f61; /* สีส้มสด */
+    text-transform: uppercase; /* แปลงข้อความเป็นตัวพิมพ์ใหญ่ */
+    letter-spacing: 2px; /* ระยะห่างระหว่างตัวอักษร */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* เงาเบา ๆ */
+    margin-bottom: 20px; /* ระยะห่างระหว่างหัวข้อกับองค์ประกอบด้านล่าง */
+}
+
+/* จัดการ์ดสินค้า */
+    .product-card {
+        background-color: #F6D6D6;
+        transition: transform 0.3s, box-shadow 0.3s; /* เพิ่มเอฟเฟกต์เมื่อโฮเวอร์ */
+        box-shadow: 0 4px 6px #CA7373; /* เงาเริ่มต้น */
+    }
+
+    .product-card:hover {
+        transform: scale(1.05); /* ขยายขนาดเมื่อโฮเวอร์ */
+        box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2); /* เงาเพิ่ม */
+    }
+
+    /* การตกแต่งรูปภาพ */
+    .product-card img {
+        border-radius: 8px; /* มุมโค้งมน */
+        border: 2px solid #fff; /* เส้นขอบสีขาว */
+    }
+
+    /* จัดการฟอนต์ */
+    .product-card h4 {
+        font-family: 'Arial', sans-serif;
+        font-size: 18px;
+        font-weight: bold;
+        margin-bottom: 8px;
+        text-align: center;
+    }
+
+    .product-card .price {
+        font-size: 16px;
+        font-weight: bold;
+        color: #4335A7; /* สีเหลือง */
+        margin-bottom: 16px;
+    }
+
+    /* ปุ่ม */
+    .product-card .btn {
+        color: #00CCDD;
+        border-radius: 20px; /* ทำปุ่มให้โค้งมน */
+        padding: 8px 20px;
+        font-size: 14px;
+        font-weight: bold;
+        transition: background-color 0.3s, color 0.3s;
+    }
+
+    .product-card .btn:hover {
+        background-color: #ffc107; /* เปลี่ยนสีพื้นหลัง */
+        color: #000; /* เปลี่ยนสีตัวอักษร */
+    }
+
+.custom-select {
+    background-color: #F6F7C4; /* สีพื้นหลัง (เทาเข้ม) */
+    color: #4335A7; /* ตัวอักษรสีขาว */
+    border: 1px solid #f8f9fa; /* เส้นขอบสีขาว */
+    border-radius: 8px; /* มุมโค้ง */
+    padding: 5px 10px; /* ช่องว่างภายใน */
+    font-size: 14px; /* ขนาดฟอนต์ */
+    width: 150px; /* กำหนดความกว้าง */
+}
+.custom-select:focus {
+    outline: none; /* ลบกรอบ focus */
+    border-color: #ffc107; /* เปลี่ยนเส้นขอบเมื่อโฟกัส (สีเหลือง) */
+    box-shadow: 0 0 5px rgba(255, 193, 7, 0.5); /* เพิ่มเงาสีเหลือง */
+}
+
+.btn {
+    background-color: #A1EEBD;
+    margin-top: 15px; /* เพิ่มระยะห่างด้านบนของปุ่ม */
+}
+
+.form-container {
+    max-width: 600px;
+    margin: 50px auto;
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  }
+  .form-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: bold;
+  }
