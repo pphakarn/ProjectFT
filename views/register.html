@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Register</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body {
+      background-color: #f8f9fa;
+    }
+    .register-form {
+      max-width: 500px;
+      margin: 50px auto;
+      background: #ffffff;
+      padding: 30px;
+      border-radius: 8px;
+      box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    }
+    .register-form h2 {
+      text-align: center;
+      margin-bottom: 20px;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="register-form">
+      <h2>Register</h2>
+      <form method="post" action="/users/register">
+        <div class="mb-3">
+          <label for="FirstName" class="form-label">First Name</label>
+          <input type="text" class="form-control" id="FirstName" name="FirstName" placeholder="Enter your first name" required>
+        </div>
+      
+        <div class="mb-3">
+          <label for="LastName" class="form-label">Last Name</label>
+          <input type="text" class="form-control" id="LastName" name="LastName" placeholder="Enter your last name" required>
+        </div>
+      
+        <div class="mb-3">
+          <label for="Email" class="form-label">Email</label>
+          <input type="email" class="form-control" id="Email" name="Email" placeholder="Enter your email" required>
+        </div>
+      
+        <div class="mb-3">
+          <label for="Password" class="form-label">Password</label>
+          <input type="password" class="form-control" id="Password" name="Password" placeholder="Enter your password" required>
+        </div>
+      
+        <button type="submit" class="btn btn-primary w-100">Register</button>
+      </form>
+      
+    </div>
+  </div>
+
+  <!-- Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
